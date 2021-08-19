@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  
+  
+  
+  <entry>
+    <title>写作模板</title>
+    <link href="/2021/08/18/%E5%86%99%E4%BD%9C%E6%A8%A1%E6%9D%BF/"/>
+    <url>/2021/08/18/%E5%86%99%E4%BD%9C%E6%A8%A1%E6%9D%BF/</url>
+    
+    <content type="html"><![CDATA[<p>这个是我预留的写作模板样式，就在这里面直接写文章就行。</p><figure class="highlight vbnet"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><code class="hljs vbnet"><span class="hljs-symbol">title:</span> 文章主标题<br><span class="hljs-symbol">excerpt:</span> 文章副标题<br><span class="hljs-symbol">index_img:</span> 文章表图片<br><span class="hljs-symbol">banner_img:</span> 文章首图背景图片<br><span class="hljs-symbol">sticky:</span> <span class="hljs-literal">true</span>  #是否顶置文章<span class="hljs-literal">true</span>/<span class="hljs-literal">false</span><br><span class="hljs-symbol">category:</span> 分类<br><span class="hljs-symbol">tag:</span> 标签<br></code></pre></td></tr></table></figure>]]></content>
+    
+    
+    <categories>
+      
+      <category>分类</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>标签</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  
+</search>

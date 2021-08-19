@@ -1,0 +1,392 @@
+
+
+<!DOCTYPE html>
+<html lang="zh-CN" data-default-color-scheme=&#34;auto&#34;>
+
+
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="apple-touch-icon" sizes="76x76" href="https://erhe.group/images/1icon.png">
+  <link rel="icon" href="https://erhe.group/images/1icon.png">
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  
+  <meta name="theme-color" content="#A593E0">
+  <meta name="description" content="">
+  <meta name="author" content="John Doe">
+  <meta name="keywords" content="">
+  
+  <title>友链 - ERHE·Blog</title>
+
+  <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" />
+
+
+
+<!-- 主题依赖的图标库，不要自行修改 -->
+
+<link rel="stylesheet" href="//at.alicdn.com/t/font_1749284_ba1fz6golrf.css">
+
+
+
+<link rel="stylesheet" href="//at.alicdn.com/t/font_1736178_kmeydafke9r.css">
+
+
+<link  rel="stylesheet" href="/css/main.css" />
+
+<!-- 自定义样式保持在最底部 -->
+
+
+  <script id="fluid-configs">
+    var Fluid = window.Fluid || {};
+    var CONFIG = {"hostname":"blog.erhe.group","root":"/","version":"1.8.11","typing":{"enable":true,"typeSpeed":110,"cursorChar":"❤️","loop":false},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"right","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"copy_btn":true,"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":false,"baidu":null,"google":null,"gtag":null,"tencent":{"sid":null,"cid":null},"woyaola":null,"cnzz":null,"leancloud":{"app_id":null,"app_key":null,"server_url":null}},"search_path":"/local-search.xml"};
+  </script>
+  <script  src="/js/utils.js" ></script>
+  <script  src="/js/color-schema.js" ></script>
+<meta name="generator" content="Hexo 5.4.0"></head>
+
+
+<body>
+<script src="https://sucai.erhe.group/hexo&erhe/titlestl.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/jquery/dist/jquery.min.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome/css/font-awesome.min.css"/>
+<script src="https://sucai.erhe.group/live2d/widget/autoload.js"></script>
+<canvas class="fireworks" style="position: fixed;left: 0;top: 0;z-index: 99999999; pointer-events: none;" ></canvas>
+<script src="https://cdn.bootcss.com/animejs/2.2.0/anime.min.js"></script>
+<script src="https://script-1256884783.file.myqcloud.com/cursor/explosion.min.js"></script>
+<script async src="https://sucai.erhe.group/hexo&erhe/sakura.js"></script>
+
+  <header style="height: 60vh;">
+    <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
+  <div class="container">
+    <a class="navbar-brand"
+       href="/">&nbsp;<strong>ERHE.GROUP</strong>&nbsp;</a>
+
+    <button id="navbar-toggler-btn" class="navbar-toggler" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <div class="animated-icon"><span></span><span></span><span></span></div>
+    </button>
+
+    <!-- Collapsible content -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto text-center">
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/">
+                <i class="iconfont icon-home-fill"></i>
+                首页
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/archives/">
+                <i class="iconfont icon-archive-fill"></i>
+                归档
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/categories/">
+                <i class="iconfont icon-category-fill"></i>
+                分类
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/tags/">
+                <i class="iconfont icon-tags-fill"></i>
+                标签
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/about/">
+                <i class="iconfont icon-user-fill"></i>
+                关于
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/links/">
+                <i class="iconfont icon-link-fill"></i>
+                友链
+              </a>
+            </li>
+          
+        
+        
+          <li class="nav-item" id="search-btn">
+            <a class="nav-link" target="_self" data-toggle="modal" data-target="#modalSearch">&nbsp;<i
+                class="iconfont icon-search"></i>&nbsp;</a>
+          </li>
+        
+        
+          <li class="nav-item" id="color-toggle-btn">
+            <a class="nav-link" target="_self">&nbsp;<i
+                class="iconfont icon-dark" id="color-toggle-icon"></i>&nbsp;</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+
+    <div class="banner" id="banner" parallax=true
+         style="background: url('https://sucai.erhe.group/hexo&erhe/yl.jpg') no-repeat center center;
+           background-size: cover;">
+      <div class="full-bg-img">
+        <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
+          <div class="page-header text-center fade-in-up">
+            <span class="h2" id="subtitle" title="友情链接">
+              
+            </span>
+
+            
+          </div>
+
+          
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    
+      <div class="container nopadding-x-md">
+        <div class="py-5" id="board"
+          >
+          
+          <div class="container">
+            <div class="row">
+              <div class="col-12 col-md-10 m-auto">
+                
+
+<div class="row links">
+  
+    
+    <div class="card col-lg-4 col-md-6 col-sm-12">
+      <a href="https://erhe.group/" class="card-body hover-with-bg" target="_blank" rel="noopener">
+        <div class="card-content">
+          
+            <div class="link-avatar my-auto">
+              <img src="https://erhe.group/images/1icon.png" srcset="/img/loading.gif" lazyload alt="ERHE.GROUP"
+                   onerror="this.onerror=null; this.src=this.srcset='/img/avatar.png'"/>
+            </div>
+          
+          <div class="link-text">
+            <div class="link-title">ERHE.GROUP</div>
+            <div class="link-intro">宇宙工作组</div>
+          </div>
+        </div>
+      </a>
+    </div>
+  
+</div>
+
+
+  <!-- Custom -->
+  <div class="custom mx-auto">
+    <hr><p>在下方留言申请加入我的友链，按如下格式提供信息：</p><ul><li>博客名：ERHE.GROUP</li><li>简介：宇宙工作组</li><li>链接：https://erhe.group/</li><li>图片：https://erhe.group/images/1icon.png</li></ul>
+  </div>
+
+
+
+  <!-- Comments -->
+  <article class="comments" id="comments" lazyload>
+    
+    
+  <div id="waline"></div>
+  <script type="text/javascript">
+    Fluid.utils.loadComments('#waline', function() {
+      Fluid.utils.createScript('https://cdn.jsdelivr.net/npm/@waline/client@0.16.2/dist/Waline.min.js', function() {
+        var options = Object.assign(
+          {"serverURL":"这个自己去申请啦","placeholder":"🌅不需要点登录，填写昵称和邮箱直接评论即可   ✅需要正确填写邮箱才能发布评论，这样就可以收到回复通知📧，也方便后续交流😋","path":"window.location.pathname","avatar":"retro","meta":["nick","mail","link"],"pageSize":10,"lang":"zh-CN","highlight":true,"avatarCDN":"","avatarForce":false,"requiredFields":["nick","mail"],"emojiCDN":"https://cdn.jsdelivr.net/gh/ReaJason/blog_emote/emote/","emojiMaps":{"[11周年]":"[11周年].png","[2021]":"[2021].png","[doge]":"[doge].png","[OK]":"[OK].png","[tv_doge]":"[tv_doge].gif","[tv_亲亲]":"[tv_亲亲].gif","[tv_偷笑]":"[tv_偷笑].gif","[tv_再见]":"[tv_再见].gif","[tv_冷漠]":"[tv_冷漠].png","[tv_发怒]":"[tv_发怒].gif","[tv_发财]":"[tv_发财].gif","[tv_可爱]":"[tv_可爱].gif","[tv_吐血]":"[tv_吐血].gif","[tv_呆]":"[tv_呆].gif","[tv_呕吐]":"[tv_呕吐].gif","[tv_困]":"[tv_困].gif","[tv_坏笑]":"[tv_坏笑].gif","[tv_大佬]":"[tv_大佬].gif","[tv_大哭]":"[tv_大哭].gif","[tv_委屈]":"[tv_委屈].gif","[tv_害羞]":"[tv_害羞].gif","[tv_尴尬]":"[tv_尴尬].gif","[tv_微笑]":"[tv_微笑].gif","[tv_思考]":"[tv_思考].gif","[tv_惊吓]":"[tv_惊吓].gif","[tv_打脸]":"[tv_打脸].gif","[tv_抓狂]":"[tv_抓狂].gif","[tv_抠鼻]":"[tv_抠鼻].gif","[tv_斜眼笑]":"[tv_斜眼笑].gif","[tv_无奈]":"[tv_无奈].gif","[tv_晕]":"[tv_晕].gif","[tv_流汗]":"[tv_流汗].gif","[tv_流泪]":"[tv_流泪].png","[tv_流鼻血]":"[tv_流鼻血].gif","[tv_点赞]":"[tv_点赞].gif","[tv_生气]":"[tv_生气].gif","[tv_生病]":"[tv_生病].gif","[tv_疑问]":"[tv_疑问].gif","[tv_白眼]":"[tv_白眼].gif","[tv_皱眉]":"[tv_皱眉].png","[tv_目瞪口呆]":"[tv_目瞪口呆].png","[tv_睡着]":"[tv_睡着].gif","[tv_笑哭]":"[tv_笑哭].gif","[tv_腼腆]":"[tv_腼腆].gif","[tv_色]":"[tv_色].gif","[tv_调侃]":"[tv_调侃].png","[tv_调皮]":"[tv_调皮].gif","[tv_鄙视]":"[tv_鄙视].gif","[tv_闭嘴]":"[tv_闭嘴].gif","[tv_难过]":"[tv_难过].gif","[tv_馋]":"[tv_馋].gif","[tv_鬼脸]":"[tv_鬼脸].png","[tv_黑人问号]":"[tv_黑人问号].gif","[tv_鼓掌]":"[tv_鼓掌].gif","[W-哈哈]":"[W-哈哈].png","[亲亲]":"[亲亲].png","[保佑]":"[保佑].png","[偷笑]":"[偷笑].png","[傲娇]":"[傲娇].png","[再见]":"[再见].png","[冷]":"[冷].png","[凛冬-生气]":"[凛冬-生气].png","[加油]":"[加油].png","[口罩]":"[口罩].png","[吃瓜]":"[吃瓜].png","[吐]":"[吐].png","[吓]":"[吓].png","[呆]":"[呆].png","[呲牙]":"[呲牙].png","[哈哈]":"[哈哈].png","[哈欠]":"[哈欠].png","[响指]":"[响指].png","[哦呼]":"[哦呼].png","[哭泣]":"[哭泣].png","[喜极而泣]":"[喜极而泣].png","[喜欢]":"[喜欢].png","[嗑瓜子]":"[嗑瓜子].png","[嘘声]":"[嘘声].png","[嘟嘟]":"[嘟嘟].png","[囧]":"[囧].png","[墨镜]":"[墨镜].png","[大哭]":"[大哭].png","[大笑]":"[大笑].png","[奋斗]":"[奋斗].png","[奸笑]":"[奸笑].png","[妙啊]":"[妙啊].png","[委屈]":"[委屈].png","[嫌弃]":"[嫌弃].png","[害羞]":"[害羞].png","[尴尬]":"[尴尬].png","[干杯]":"[干杯].png","[微笑]":"[微笑].png","[思考]":"[思考].png","[怪我咯]":"[怪我咯].png","[惊喜]":"[惊喜].png","[惊讶]":"[惊讶].png","[打call]":"[打call].png","[抓狂]":"[抓狂].png","[抠鼻]":"[抠鼻].png","[抱拳]":"[抱拳].png","[拥抱]":"[拥抱].png","[捂眼]":"[捂眼].png","[捂脸]":"[捂脸].png","[撇嘴]":"[撇嘴].png","[支持]":"[支持].png","[无语]":"[无语].png","[星星眼]":"[星星眼].png","[月饼]":"[月饼].png","[歪嘴]":"[歪嘴].png","[气愤]":"[气愤].png","[滑稽]":"[滑稽].png","[灵魂出窍]":"[灵魂出窍].png","[点赞]":"[点赞].png","[热词系列_AWSL]":"[热词系列_AWSL].png","[热词系列_DNA]":"[热词系列_DNA].png","[热词系列_“狼火”]":"[热词系列_“狼火”].png","[热词系列_三连]":"[热词系列_三连].png","[热词系列_不愧是你]":"[热词系列_不愧是你].png","[热词系列_你可真星]":"[热词系列_你可真星].png","[热词系列_你币有了]":"[热词系列_你币有了].png","[热词系列_你细品]":"[热词系列_你细品].png","[热词系列_保护]":"[热词系列_保护].png","[热词系列_再来亿遍]":"[热词系列_再来亿遍].png","[热词系列_危]":"[热词系列_危].png","[热词系列_可以]":"[热词系列_可以].png","[热词系列_吹爆]":"[热词系列_吹爆].png","[热词系列_咕咕]":"[热词系列_咕咕].png","[热词系列_大师球]":"[热词系列_大师球].png","[热词系列_夺笋呐]":"[热词系列_夺笋呐].png","[热词系列_奥力给]":"[热词系列_奥力给].png","[热词系列_好家伙]":"[热词系列_好家伙].png","[热词系列_好活]":"[热词系列_好活].png","[热词系列_好耶]":"[热词系列_好耶].png","[热词系列_妙啊]":"[热词系列_妙啊].png","[热词系列_完结撒花]":"[热词系列_完结撒花].png","[热词系列_害]":"[热词系列_害].png","[热词系列_害怕]":"[热词系列_害怕].png","[热词系列_希望没事]":"[热词系列_希望没事].png","[热词系列_张三]":"[热词系列_张三].png","[热词系列_我全都要]":"[热词系列_我全都要].png","[热词系列_我哭了]":"[热词系列_我哭了].png","[热词系列_我太南了]":"[热词系列_我太南了].png","[热词系列_我裂开了]":"[热词系列_我裂开了].png","[热词系列_我酸了]":"[热词系列_我酸了].png","[热词系列_打卡]":"[热词系列_打卡].png","[热词系列_排面]":"[热词系列_排面].png","[热词系列_有内味了]":"[热词系列_有内味了].png","[热词系列_有生之年]":"[热词系列_有生之年].png","[热词系列_标准结局]":"[热词系列_标准结局].png","[热词系列_梦幻联动]":"[热词系列_梦幻联动].png","[热词系列_泪目]":"[热词系列_泪目].png","[热词系列_热乎]":"[热词系列_热乎].png","[热词系列_爱了爱了]":"[热词系列_爱了爱了].png","[热词系列_爷关更]":"[热词系列_爷关更].png","[热词系列_爷青回]":"[热词系列_爷青回].png","[热词系列_猛男必看]":"[热词系列_猛男必看].png","[热词系列_真香]":"[热词系列_真香].png","[热词系列_知识增加]":"[热词系列_知识增加].png","[热词系列_知识盲区]":"[热词系列_知识盲区].png","[热词系列_神仙UP]":"[热词系列_神仙UP].png","[热词系列_秀]":"[热词系列_秀].png","[热词系列_芜湖起飞]":"[热词系列_芜湖起飞].png","[热词系列_这次一定]":"[热词系列_这次一定].png","[热词系列_递话筒]":"[热词系列_递话筒].png","[热词系列_锤]":"[热词系列_锤].png","[热词系列_镇站之宝]":"[热词系列_镇站之宝].png","[热词系列_问号]":"[热词系列_问号].png","[热词系列_高产]":"[热词系列_高产].png","[煌-震撼]":"[煌-震撼].png","[爱心]":"[爱心].png","[牛年]":"[牛年].png","[狗子]":"[狗子].png","[生气]":"[生气].png","[生病]":"[生病].png","[疑惑]":"[疑惑].png","[疼]":"[疼].png","[福到了]":"[福到了].png","[笑]":"[笑].png","[笑哭]":"[笑哭].png","[给心心]":"[给心心].png","[羞羞]":"[羞羞].png","[翻白眼]":"[翻白眼].png","[老鼠]":"[老鼠].png","[耍帅]":"[耍帅].png","[胜利]":"[胜利].png","[脱单doge]":"[脱单doge].png","[视频卫星]":"[视频卫星].png","[调皮]":"[调皮].png","[跪了]":"[跪了].png","[辣眼睛]":"[辣眼睛].png","[酸了]":"[酸了].png","[锦鲤]":"[锦鲤].png","[阴险]":"[阴险].png","[难过]":"[难过].png","[雪花]":"[雪花].png","[霜叶-疑问]":"[霜叶-疑问].png","[高兴]":"[高兴].png","[鸡腿]":"[鸡腿].png","[黑洞]":"[黑洞].png","[鼓掌]":"[鼓掌].png"},"langMode":{"admin":"你好，我的朋友😆"},"anonymous":null},
+          {
+            el: '#waline',
+            path: window.location.pathname
+          }
+        )
+        new Waline(options);
+      });
+    });
+  </script>
+  <noscript>Please enable JavaScript to view the comments</noscript>
+
+
+  </article>
+
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+
+    
+      <a id="scroll-top-button" href="#" role="button">
+        <i class="iconfont icon-arrowup" aria-hidden="true"></i>
+      </a>
+    
+
+    
+      <div class="modal fade" id="modalSearch" tabindex="-1" role="dialog" aria-labelledby="ModalLabel"
+     aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header text-center">
+        <h4 class="modal-title w-100 font-weight-bold">搜索</h4>
+        <button type="button" id="local-search-close" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body mx-3">
+        <div class="md-form mb-5">
+          <input type="text" id="local-search-input" class="form-control validate">
+          <label data-error="x" data-success="v"
+                 for="local-search-input">关键词</label>
+        </div>
+        <div class="list-group" id="local-search-result"></div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+
+    
+  </main>
+
+  <footer class="text-center mt-5 py-3">
+  <div class="footer-content">
+     <i class="iconfont icon-copyright"></i> 2021 <a target="_blank" rel="noopener" href="https://erhe.group">ERHE.GROUP</a> <br>Powered by  <a href="https://hexo.io" target="_blank" rel="nofollow noopener"><span>Hexo</span> </a> ❤️ <a href="https://erhe.group" target="_blank" rel="nofollow noopener"><span>ERHE.GROUP</span></a> <div id="yellowcolor"> ❄我们在一起玩耍了❄ <br> <span id="timeDate">&nbsp;天</span> <span id="times">&nbsp;小时&nbsp;&nbsp;分&nbsp;&nbsp;秒</span> <script src="https://sucai.erhe.group/hexo&erhe/time.js"></script> </div> <style> #yellowcolor{animation:change 10s infinite;font-weight:800; } @keyframes change{0%{color:#5cb85c;}25%{color:#556bd8;}50%{color:#e40707;}75%{color:#66e616;}100% {color:#67bd31;}} </style> 
+  </div>
+  
+
+  
+  <!-- 备案信息 -->
+  <div class="beian">
+    <span>
+      <a href="http://beian.miit.gov.cn/" target="_blank" rel="nofollow noopener">
+        皖ICP备 备案号 号
+      </a>
+    </span>
+    
+  </div>
+
+
+  
+</footer>
+
+
+  <!-- SCRIPTS -->
+  
+  <script  src="https://cdn.jsdelivr.net/npm/nprogress@0.2.0/nprogress.min.js" ></script>
+  <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/nprogress@0.2.0/nprogress.min.css" />
+
+  <script>
+    NProgress.configure({"showSpinner":false,"trickleSpeed":100})
+    NProgress.start()
+    window.addEventListener('load', function() {
+      NProgress.done();
+    })
+  </script>
+
+
+<script  src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" ></script>
+<script  src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" ></script>
+<script  src="/js/events.js" ></script>
+<script  src="/js/plugins.js" ></script>
+
+<!-- Plugins -->
+
+
+  
+    <script  src="/js/img-lazyload.js" ></script>
+  
+
+
+
+  
+
+
+
+
+
+
+
+
+
+  <script defer src="https://cdn.jsdelivr.net/npm/clipboard@2.0.8/dist/clipboard.min.js" ></script>
+
+
+
+  <script  src="/js/local-search.js" ></script>
+
+
+
+
+
+
+  <script  src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12/lib/typed.min.js" ></script>
+  <script>
+    (function (window, document) {
+      var typing = Fluid.plugins.typing;
+      var title = document.getElementById('subtitle').title;
+      
+      typing(title)
+      
+    })(window, document);
+  </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- 主题的启动项 保持在最底部 -->
+<script  src="/js/boot.js" ></script>
+
+
+<script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"log":false,"pluginJsPath":"lib/","pluginModelPath":"assets/","pluginRootPath":"live2dw/","tagMode":false});</script></body>
+</html>
